@@ -85,6 +85,7 @@ class SimpleKeyboard {
     this.options.inputName = this.options.inputName || "default";
     this.options.preventMouseDownDefault =
       this.options.preventMouseDownDefault || false;
+    this.options.language = this.options.language || "default";
 
     /**
      * @type {object} Classes identifying loaded plugins
@@ -1236,6 +1237,8 @@ class SimpleKeyboard {
      * Calling beforeRender
      */
     this.beforeRender();
+
+    console.log(this.options);
 
     const layoutClass = `hg-layout-${this.options.layoutName}`;
     const layout =
