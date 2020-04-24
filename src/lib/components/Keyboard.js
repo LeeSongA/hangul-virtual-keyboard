@@ -1,7 +1,8 @@
 import "./Keyboard.css";
 
 // Services
-import { getDefaultLayout } from "../services/KeyboardLayout";
+import { getDefaultLayout } from "../services/KeyboardDefaultLayout";
+import { getEnglishLayout } from "../services/KeyboardEnglishLayout";
 import PhysicalKeyboard from "../services/PhysicalKeyboard";
 import Utilities from "../services/Utilities";
 
@@ -1237,7 +1238,7 @@ class SimpleKeyboard {
     this.beforeRender();
 
     const layoutClass = `hg-layout-${this.options.layoutName}`;
-    const layout = this.options.layout || getDefaultLayout();
+    const layout = this.options.language === "default" ? getDefaultLayout() : getEnglishLayout();
     const useTouchEvents = this.options.useTouchEvents || false;
     const useTouchEventsClass = useTouchEvents ? "hg-touch-events" : "";
     const useMouseEvents = this.options.useMouseEvents || false;

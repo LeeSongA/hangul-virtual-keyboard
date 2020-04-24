@@ -50,7 +50,7 @@ class Utilities {
       "{alt}": "alt",
       "{s}": "shift",
       "{tab}": "tab",
-      "{lock}": "caps",
+      "{language}": "한/영",
       "{capslock}": "caps",
       "{accept}": "Submit",
       "{space}": " ",
