@@ -181,5 +181,8 @@
         "@babel/plugin-proposal-class-properties"
       ]
     ]
+  },
+  "dependencies": {
+    "hangul-js": "^0.2.6"
   }
 }
