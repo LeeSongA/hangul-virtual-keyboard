@@ -1238,7 +1238,10 @@ class SimpleKeyboard {
     this.beforeRender();
 
     const layoutClass = `hg-layout-${this.options.layoutName}`;
-    const layout = this.options.language === "default" ? getDefaultLayout() : getEnglishLayout();
+    const layout =
+      this.options.language === "default"
+        ? getDefaultLayout()
+        : getEnglishLayout();
     const useTouchEvents = this.options.useTouchEvents || false;
     const useTouchEventsClass = useTouchEvents ? "hg-touch-events" : "";
     const useMouseEvents = this.options.useMouseEvents || false;
