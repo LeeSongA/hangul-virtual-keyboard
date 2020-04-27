@@ -3,7 +3,9 @@ import "./css/index.css";
 /**
  * Demos
  */
-import BasicDemo from "./BasicDemo";
+
+import HangulLayoutDemo from "./HangulLayoutDemo";
+// import BasicDemo from "./BasicDemo";
 // import ButtonThemeDemo from "./ButtonThemeDemo";
 // import DOMElementDemo from "./DOMElementDemo";
 // import FullKeyboardDemo from "./FullKeyboardDemo";
@@ -12,7 +14,7 @@ import BasicDemo from "./BasicDemo";
 /**
  * Selected demo
  */
-const SELECTED_DEMO = BasicDemo;
+const SELECTED_DEMO = HangulLayoutDemo;
 
 /**
  * Bootstrap
