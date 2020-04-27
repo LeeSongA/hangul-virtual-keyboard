@@ -1,36 +1,26 @@
+## hangul-virtual-keyboard
+기존의 simple-keyboard에서 제공하는 korean 버전은 받침이 입력되지 않는 문제점이 있습니다. 이를 해결하기 위해 hangul-js의 Hangul.assemble을 이용했습니다. 한글의 자음/모음을 조합하여 글자로 보여줍니다.
+
+***
+
 <p>
-  <a href="https://simple-keyboard.com/demo">
-	<img alt="simple-keyboard: Javscript Virtual Keyboard" src="https://i.imgur.com/Po6659n.gif">
-  </a>
-	
   <a href="https://www.npmjs.com/package/simple-keyboard">
-    <img src="https://badgen.net/npm/v/simple-keyboard?color=blue" alt="npm version">
-  </a>
-
-  <a href="https://github.com/hodgef/simple-keyboard/actions">
-     <img alt="Build Status" src="https://github.com/hodgef/simple-keyboard/workflows/Build/badge.svg?color=green" />
-  </a>
-  
-  <a href="https://github.com/hodgef/simple-keyboard/actions">
-     <img alt="Publish Status" src="https://github.com/hodgef/simple-keyboard/workflows/Publish/badge.svg?color=green" />
-  </a>
-
-  <a href="https://bundlephobia.com/result?p=simple-keyboard">
-    <img src="https://badgen.net/bundlephobia/minzip/simple-keyboard/?color=green" alt="install size">
-  </a>
-  
-  <a href="https://david-dm.org/hodgef/simple-keyboard">
-    <img src="https://badgen.net/david/dep/hodgef/simple-keyboard" alt="coverage">
-  </a>
-
-  <a href="https://codecov.io/gh/hodgef/simple-keyboard">
-    <img src="https://badgen.net/codecov/c/github/hodgef/simple-keyboard" alt="coverage">
+	<h3>simple-keyboard</h3>
   </a>
 </p>
 
 <blockquote>The slick virtual keyboard for Javascript. Compatible with your JS, React, Angular or Vue projects.</blockquote>
 
-## 🚀 Demo
+***
+
+<a href="https://www.npmjs.com/package/hangul-js">
+	<h3>hangul-js</h3>
+</a>
+<blockquote>Hangul.js는 한글로 이루어진 문장의 자음과 모음을 분리하는 자바스크립트 라이브러리입니다. 자모 부니 또는 초성 검색에 사용할 수 있습니다.</blockquote>
+
+***
+
+## 🚀 Demo (simple-keyboard)
 [Demo Showcase (Vanilla, Angular, React, Vue)](https://simple-keyboard.com/demo)
 
 ## 📦 Installation & Usage
@@ -57,10 +47,6 @@ Feel free to browse the [Questions & Answers (FAQ)](https://simple-keyboard.com/
 * [Angular](https://simple-keyboard.com/demo)
 * [Vue.js](https://simple-keyboard.com/demo)
 
-### Questions?
-
-<a href="http://franciscohodge.com/simple-keyboard/chat/join" title="Join our Discord chat" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/discord.png" align="center" width="200"></a>
-
 ## ✳️ Modules
 
 You can extend simple-keyboard's functionality with [modules](https://franciscohodge.com/projects/simple-keyboard/modules/). Such as:
@@ -72,14 +58,7 @@ You can extend simple-keyboard's functionality with [modules](https://franciscoh
 
 Want to create your own module? Check out the [Modules page](https://franciscohodge.com/projects/simple-keyboard/modules/) for instructions.
 
-## 🎯 Compatibility
-
-> Simple-keyboard is intended for modern, standards-compliant browsers.
-> Internet Explorer is sadly not one of them, and since its market-share is negligible (~2% for IE11), resources won't be spent in trying to support it.
->
-> To learn more about the rationale for not supporting IE, check out [this link](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/The-perils-of-using-Internet-Explorer-as-your-default-browser/ba-p/331732).
-
 ## ✅ Contributing
 
 PR's and issues are welcome. Feel free to submit any issues you have at:
-[https://github.com/hodgef/simple-keyboard/issues](https://github.com/hodgef/simple-keyboard/issues)
+[https://github.com/LeeSongA/hangul-virtual-keyboard/issues](https://github.com/LeeSongA/hangul-virtual-keyboard/issues)
