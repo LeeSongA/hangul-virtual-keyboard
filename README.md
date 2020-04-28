@@ -1,5 +1,5 @@
 ## hangul-virtual-keyboard
-기존의 simple-keyboard에서 제공하는 korean 버전은 받침이 입력되지 않는 문제점이 있습니다. 이를 해결하기 위해 hangul-js의 Hangul.assemble을 이용했습니다. 한글의 자음/모음을 조합하여 글자로 보여줍니다.
+기존의 simple-keyboard에서 제공하는 Korean 버전은 받침이 입력되지 않는 문제점이 있습니다. 이를 해결하기 위해 hangul-js의 Hangul.assemble을 이용했습니다. 한글의 자음/모음을 조합하여 글자로 보여줍니다.
 
 ***
 
@@ -16,19 +16,21 @@
 <a href="https://www.npmjs.com/package/hangul-js">
 	<h3>hangul-js</h3>
 </a>
-<blockquote>Hangul.js는 한글로 이루어진 문장의 자음과 모음을 분리하는 자바스크립트 라이브러리입니다. 자모 부니 또는 초성 검색에 사용할 수 있습니다.</blockquote>
+<blockquote>Hangul.js는 한글로 이루어진 문장의 자음과 모음을 분리하는 자바스크립트 라이브러리입니다. 자모 분리 또는 초성 검색에 사용할 수 있습니다.</blockquote>
 
 ***
+
+## 📦 Installation & Usage
+`npm install hangul-virtual-keyboard`
+
+`import Keyboard from 'hangul-virtual-keyboard';`
+
 
 ## 🚀 Demo (simple-keyboard)
 [Demo Showcase (Vanilla, Angular, React, Vue)](https://simple-keyboard.com/demo)
 
-## 📦 Installation & Usage
-You can use simple-keyboard as a `<script>` tag from a CDN, or install it from npm.
-  
-Check out the [Getting Started](https://simple-keyboard.com/getting-started) docs to begin.
 
-## 📖 Documentation
+## 📖 Documentation (simple-keyboard)
 Check out the [simple-keyboard documentation](https://simple-keyboard.com/documentation) site.
 
 Feel free to browse the [Questions & Answers (FAQ)](https://simple-keyboard.com/qa-use-cases/) page for common use-cases.
@@ -47,7 +49,7 @@ Feel free to browse the [Questions & Answers (FAQ)](https://simple-keyboard.com/
 * [Angular](https://simple-keyboard.com/demo)
 * [Vue.js](https://simple-keyboard.com/demo)
 
-## ✳️ Modules
+## ✳️ Modules (simple-keyboard)
 
 You can extend simple-keyboard's functionality with [modules](https://franciscohodge.com/projects/simple-keyboard/modules/). Such as:
 
