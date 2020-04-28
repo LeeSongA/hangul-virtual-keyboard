@@ -1,7 +1,7 @@
 /*!
  * 
- *   hangul-virtual-keyboard v1.0.0
- *   https://github.com/hodgef/simple-keyboard
+ *   hangul-virtual-keyboard v1.0.1
+ *   https://github.com/LeeSongA/hangul-virtual-keyboard
  * 
  *   Copyright (c) Song-A Lee (https://github.com/LeeSongA)
  * 
